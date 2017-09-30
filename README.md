@@ -18,4 +18,7 @@
 МОДУЛЬ 4  
 [Урок № 10](https://github.com/rudneva-sveta/rudneva-sveta.github.io/tree/master/lesson_10/project/src "УРОК № 10 (Препроцессор LESS для CSS)") - Препроцессор LESS для CSS (Знакомство с LESS - выложены файлы less и css)  
 [Урок № 11](https://github.com/rudneva-sveta/rudneva-sveta.github.io/tree/master/lesson_11 "УРОК № 11 (Сниппеты)") - Сниппеты (Выложены скрины)  
-[Урок № 12](адрес "Описание")
+[Урок № 12](https://rudneva-sveta.github.io/ "УРОК № 12 (Хостинг от GitHub)") - Хостинг от GitHub
+  
+МОДУЛЬ 5  
+[Урок № 13](https://rudneva-sveta.github.io/lesson_13/ "УРОК № 13 (Адаптивная верстка)") - Адаптивная верстка (Форму сверстана в стиле Pixel Perfect)
