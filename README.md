@@ -2,8 +2,8 @@
 ## Мои домашние задания
 
 МОДУЛЬ 1  
-[Урок № 2](https://rudneva-sveta.github.io/lesson_2/ "УРОК № 2 (Работа с графикой для разработчика)") - Работа с графикой для разработчика (Выложены: Файлы/Картинки/Иконки)  
-[Урок № 3](https://rudneva-sveta.github.io/lesson_3/ "УРОК № 3 (Настройка рабочего пространства)") - Настройка рабочего пространства (Выложены скрины)  
+[Урок № 2](https://github.com/rudneva-sveta/rudneva-sveta.github.io/tree/master/lesson_2/site/img "УРОК № 2 (Работа с графикой для разработчика)") - Работа с графикой для разработчика (Выложены: Файлы/Картинки/Иконки)  
+[Урок № 3](https://github.com/rudneva-sveta/rudneva-sveta.github.io/tree/master/lesson_3 "УРОК № 3 (Настройка рабочего пространства)") - Настройка рабочего пространства (Выложены скрины)  
   
 МОДУЛЬ 2  
 [Урок № 4](https://rudneva-sveta.github.io/lesson_4/project/src/ "УРОК № 4 (Знакомство с основами HTML)") - Знакомство с основами HTML (Верстка мини-книжки на чистом HTML)  
@@ -16,6 +16,6 @@
 [Урок № 9](https://rudneva-sveta.github.io/lesson_9/project-bootstrap/ "УРОК № 9 (Верстка при помощи bootstrap)") - Верстка при помощи bootstrap (Верстка сайта урока 7 - с использованием bootstrap)  
   
 МОДУЛЬ 4  
-[Урок № 10](https://rudneva-sveta.github.io/lesson_10/project/src/ "УРОК № 10 (Препроцессор LESS для CSS)") - Препроцессор LESS для CSS (Знакомство с LESS - выложены файлы less и css)  
-[Урок № 11](https://rudneva-sveta.github.io/lesson_11/ "УРОК № 11 (Сниппеты)") - Сниппеты (Выложены скрины)  
+[Урок № 10](https://github.com/rudneva-sveta/rudneva-sveta.github.io/tree/master/lesson_10/project/src "УРОК № 10 (Препроцессор LESS для CSS)") - Препроцессор LESS для CSS (Знакомство с LESS - выложены файлы less и css)  
+[Урок № 11](https://github.com/rudneva-sveta/rudneva-sveta.github.io/tree/master/lesson_11 "УРОК № 11 (Сниппеты)") - Сниппеты (Выложены скрины)  
 [Урок № 12](адрес "Описание")
