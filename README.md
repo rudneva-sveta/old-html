@@ -21,4 +21,4 @@
 [Урок № 12](https://rudneva-sveta.github.io/ "УРОК № 12 (Хостинг от GitHub)") - Хостинг от GitHub
   
 МОДУЛЬ 5  
-[Урок № 13](https://rudneva-sveta.github.io/lesson_13/ "УРОК № 13 (Адаптивная верстка)") - Адаптивная верстка (Форму сверстана в стиле Pixel Perfect)
+[Урок № 13](https://rudneva-sveta.github.io/lesson_13/ "УРОК № 13 (Адаптивная верстка)") - Адаптивная верстка (Данная форма сверстана в стиле Pixel Perfect)
