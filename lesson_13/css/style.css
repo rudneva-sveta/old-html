@@ -20,37 +20,57 @@ body {
 	margin: 100px 125px;
 }
 
-form {
-	margin: auto 29px;
+.header {
+	width: 149px;
+	height: 25px;
+	background-color: #01b3b3;
+	color: #fbfdfd;
+	margin-left: 29px;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: -4px;
+	margin-bottom: 32px;
+	height: 25px;
+	line-height: 25px;
 }
 
-form p {
-	margin-bottom: 10px; 
+form {
+	margin: auto 28px;
+	width: 262px;
+	height: 205px;
+}
+
+.one {
+	margin-bottom: 9px; 
+}
+
+.two {
+	margin-top: -4px;
+ margin-bottom: 9px;
+}
+
+.three {
+	margin-top: -3px;
+	margin-bottom: 11px;
+}
+
+.two-input {
+	margin-top: 3px;
 }
 
 .form input {
-	margin-bottom: 23px;
-	width: 263px;
-	height: 32px;
+	margin-bottom: 20px;
+	width: 100%;
+	height: 30px;
 	border: 1px solid #cfdede;
 	background-image: url(../img/fon.jpg);
 	font-weight: 300;
 	font-style: italic;
 	padding-left: 12px;  
-	padding-top: 3px;
 }
 
-.header {
-	width: 150px;
-	height: 27px;
-	background-color: #01b3b3;
-	color: #fbfdfd;
-	margin-left: 28px;
-	text-transform: uppercase;
-	text-align: center;
-	padding-top: 6px;
-	margin-top: -5px;
-	margin-bottom: 35px;
+form span {
+	color: #01b3b3;
 }
 
 button {
@@ -61,10 +81,6 @@ button {
 	color: #ffffff;
 	background-color: #01b3b3;
 	border: none;
-	margin: 5px 30px;
+	margin: 36px 30px;
 	border-radius: 4px;
-}
-
-form span {
-	color: #01b3b3;
 }
