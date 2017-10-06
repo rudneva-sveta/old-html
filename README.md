@@ -24,7 +24,8 @@
 [Урок № 13](https://rudneva-sveta.github.io/lesson_13/ "УРОК № 13 (Адаптивная верстка)") - Адаптивная верстка (Данная форма сверстана в стиле Pixel Perfect)  
 [Урок № 14](https://rudneva-sveta.github.io/lesson_14/fonts-viewer/ "УРОК № 14 (Подключение шрифтов)") - Подключение шрифтов  
 [Урок № 15](https://rudneva-sveta.github.io/lesson_15/ "УРОК № 15 (Псевдоклассы и псевдоэлементы)") - Псевдоклассы и псевдоэлементы  
-[Урок № 16](https://rudneva-sveta.github.io/lesson_16/ "УРОК № 16 (Слайдер на сайте)") - Слайдер на сайте
+[Урок № 16](https://rudneva-sveta.github.io/lesson_16/ "УРОК № 16 (Слайдер на сайте)") - Слайдер на сайте  
+[Урок № 17](https://rudneva-sveta.github.io/lesson_17/ "УРОК № 17 (Всплывающие окна)") - Всплывающие окна
 
   
 * * * * *   
