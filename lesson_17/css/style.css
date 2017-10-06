@@ -1,0 +1,75 @@
+.button-one {	
+	position: absolute;
+	top: 50%;
+	margin-top: -50px;
+	left: 50%;
+	margin-left: -100px;
+}
+
+.button-two {
+	position: absolute;
+	top: 60%;
+	margin-top: -60px;
+	left: 50%;
+	margin-left: -100px;
+}
+ 
+.modal-two {
+	position: absolute;
+	display: inline-block;
+	background: url(../img/modal-box.jpg) center no-repeat;
+	border-radius: 10px;
+ left: 50%;
+	margin-left: -200px;
+	top: 50%;
+	margin-top: -200px;
+ width: 424px;
+ height: 197px; 
+} 
+
+.modal-content-two {
+	position: inherit;
+	display: inline-block;
+	left: 50%;
+	margin-left: -200px;
+	top: 106%;
+	margin-top: -200px;
+ background-color: #fff;
+ border-radius: 10px;
+ width: 400px;
+ height: 180px;
+}
+
+.modal-header-two {
+	background: url(../img/title-bar.jpg) center no-repeat;
+	background-size: 110%;
+	border-radius: 10px 10px 0 0;
+	color: #ffffff;
+	height: 50px;
+	padding-top: 10px;
+	padding-left: 20px;
+}
+
+.close-btn {
+	position: absolute;
+	margin-left: 350px;
+	border: none;
+	background: url(../img/cross.png);
+}
+
+.modal-footer-two {
+ text-align: left;
+}
+
+.button-yes {
+	background-color: #6fa454;
+	width: 60px;
+	color: #ffffff;
+	box-shadow: 2px 2px 1px rgba(0,0,0,0.6);
+}
+.button-no {
+	background-color: #d65d5d;
+	width: 60px;
+	color: #ffffff;
+	box-shadow: 2px 2px 1px rgba(0,0,0,0.6);
+}

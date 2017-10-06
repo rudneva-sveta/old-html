@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Всплывающие окна - урок № 17</title>
+	<!-- Подключаем стили Bootstrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<!-- Подключаем наши стили -->
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	
+	<!-- Кнопка с всплывающим окном от bootstrap -->
+	<div class="container">
+		<button class="button-one btn btn-warning btn-lg" data-toggle="modal" data-target="#my-modal">Удалить файл (1)</button>
+	</div>
+
+	<!-- Модальное окно от bootstrap-->
+	<div class="modal fade" id="my-modal">
+		<!-- Само (белое) модальное окно -->
+	  <div class="modal-dialog">
+	  	<!-- Содержимое модального окна -->
+	    <div class="modal-content">
+	    	<!-- Шапка модального окна -->
+	      <div class="modal-header">
+	      	<!-- Кнопка "закрыть" -->
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	        <!-- Заголовок модального окна -->
+	        <h4 class="modal-title">Удалить файл</h4>
+	      </div>
+	      <!-- Тело модального окна -->
+	      <div class="modal-body">
+	        <p>Вы действительно хотите удалить файл?</p>
+	      </div>
+	      <!-- Подвал модального окна -->
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-default" data-dismiss="modal">Да</button>
+	        <button type="button" class="btn btn-primary" data-dismiss="modal">Нет</button>
+	      </div>
+	    </div><!-- /.modal-content -->
+	  </div><!-- /.modal-dialog -->
+	</div><!-- /.modal -->
+
+
+
+
+
+	<!-- Кнопка с всплывающим окном скаченным -->
+	<div class="container">
+		<button class="button-two btn btn-danger btn-lg" data-toggle="modal" data-target="#my-modal-two">Удалить файл (2)</button>
+	</div>
+
+	<!-- Модальное окно от bootstrap-->
+	<div class="modal fade" id="my-modal-two">
+		<!-- Само (белое) модальное окно -->
+	  <div class="modal-two">
+	  	<!-- Содержимое модального окна -->
+	    <div class="modal-content-two">
+	    	<!-- Шапка модального окна -->
+	      <div class="modal-header-two">
+	      	<!-- Кнопка "закрыть" -->
+	        <button type="button" class="close-btn" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	        <!-- Заголовок модального окна -->
+	        <h4 class="modal-title">Удалить файл</h4>
+	      </div>
+	      <!-- Тело модального окна -->
+	      <div class="modal-body">
+	        <p>Вы действительно хотите удалить файл?</p>
+	      </div>
+	      <!-- Подвал модального окна -->
+	      <div class="modal-footer modal-footer-two">
+	        <button type="button" class="btn button-yes" data-dismiss="modal">Да</button>
+	        <button type="button" class="btn button-no" data-dismiss="modal">Нет</button>
+	      </div>
+	    </div><!-- /.modal-content -->
+	  </div><!-- /.modal-dialog -->
+	</div><!-- /.modal -->
+
+
+<!-- Подключаем библиотеку JQuery -->
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<!-- Для модальных окон от bootstrap подключаем js-файл -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</body>
+</html>
