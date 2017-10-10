@@ -1,0 +1,50 @@
+.container {
+	position: absolute;
+	left: 50%;
+ margin-left: -600px;
+ top: 50%;
+ margin-top: -300px;
+	background: url(../img/fon.jpg) center no-repeat;
+	height: 600px;
+}
+
+h1 {
+	color: #0bbaf0;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;	
+	margin-top: 50px;
+	margin-bottom: -10px;
+}
+h2 {
+	color: #0bbaf0;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 24px;
+}
+
+.content {
+	position: absolute;
+	left: 50%;
+ margin-left: -260px;
+}
+
+.header {
+	background-color: #0bbaf0;
+	color: #ffffff;
+	border: none;
+	width: 520px;
+	height: 40px;
+	margin-top: 5px;
+}
+
+.text {
+	background-color: #ffffff;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-right-style: solid;
+	border-color: #dcdcdc;
+	border-radius: 4px;
+	width: 510px;
+	margin-left: 5px;
+}
