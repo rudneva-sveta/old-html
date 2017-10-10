@@ -25,7 +25,8 @@
 [Урок № 14](https://rudneva-sveta.github.io/lesson_14/fonts-viewer/ "УРОК № 14 (Подключение шрифтов)") - Подключение шрифтов  
 [Урок № 15](https://rudneva-sveta.github.io/lesson_15/ "УРОК № 15 (Псевдоклассы и псевдоэлементы)") - Псевдоклассы и псевдоэлементы  
 [Урок № 16](https://rudneva-sveta.github.io/lesson_16/ "УРОК № 16 (Слайдер на сайте)") - Слайдер на сайте  
-[Урок № 17](https://rudneva-sveta.github.io/lesson_17/ "УРОК № 17 (Всплывающие окна)") - Всплывающие окна
+[Урок № 17](https://rudneva-sveta.github.io/lesson_17/ "УРОК № 17 (Всплывающие окна)") - Всплывающие окна  
+[Урок № 18.1](https://rudneva-sveta.github.io/lesson_18/1/ "Урок № 18.1 - Табы") и [Урок № 18.2](https://rudneva-sveta.github.io/lesson_18/2/ "Урок № 18.2 - Аккордеон") - Табы и аккордеон на сайте
 
   
 * * * * *   
