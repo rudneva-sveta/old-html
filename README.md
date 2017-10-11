@@ -26,11 +26,16 @@
 [Урок № 15](https://rudneva-sveta.github.io/lesson_15/ "УРОК № 15 (Псевдоклассы и псевдоэлементы)") - Псевдоклассы и псевдоэлементы  
 [Урок № 16](https://rudneva-sveta.github.io/lesson_16/ "УРОК № 16 (Слайдер на сайте)") - Слайдер на сайте  
 [Урок № 17](https://rudneva-sveta.github.io/lesson_17/ "УРОК № 17 (Всплывающие окна)") - Всплывающие окна  
-[Урок № 18.1](https://rudneva-sveta.github.io/lesson_18/1/ "Урок № 18.1 - Табы") и [Урок № 18.2](https://rudneva-sveta.github.io/lesson_18/2/ "Урок № 18.2 - Аккордеон") - Табы и аккордеон на сайте
+[Урок № 18.1](https://rudneva-sveta.github.io/lesson_18/1/ "Урок № 18.1 - Табы") и [Урок № 18.2](https://rudneva-sveta.github.io/lesson_18/2/ "Урок № 18.2 - Аккордеон") - Табы и аккордеон на сайте  
+  
+МОДУЛЬ 6  
+[Урок № 19](https://rudneva-sveta.github.io/lesson_19/index.html "УРОК № 19 (Анимация на CSS3)") - Анимация на CSS3
 
   
 * * * * *   
 ### ПРАКТИКА  
+  
+  МОДУЛЬ 5
 [Часть 1](rudneva-sveta.github.io/practice_1/project/src/ "ПРАКТИКА - ЧАСТЬ 1 (Подготовка файлов. Верстка шапки сайта)") - Подготовка файлов. Верстка шапки сайта.  
 [Часть 2](https://rudneva-sveta.github.io/practice_2/project/src/ "ПРАКТИКА - ЧАСТЬ 2 (Подключение шрифтов. Верстка первого экрана)") - Подключение шрифтов. Верстка первого экрана.  
 [Часть 3](https://rudneva-sveta.github.io/practice_3/project/src/ "ПРАКТИКА - ЧАСТЬ 3 (Эффекты при наведении и адаптив первого экрана)") - Эффекты при наведении и адаптив первого экрана.  
