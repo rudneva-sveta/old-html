@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="/favicon.ico">
+
+    <title>УРОК № 19-Анимация на CSS3</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+    <link href="starter-template.css" rel="stylesheet">
+    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/style.css">
+
+  </head>
+  <body>
+    
+    <div class="box-one">Проверка wow-библиотеки <br>↓</div>
+    <div class="box wow" data-wow-iteration='2'><p class="box-p">УРОК № 19 <br>(Анимация на CSS3)</p></div>
+
+
+    <div class="container">
+
+    	<div class="info">
+
+  <!-- Nav tabs -->
+  <ul class="nav nav-tabs header">
+    <li class="active login">
+     <a class="a-link" href="#login" data-toggle="tab">Вход</a>
+    </li>
+    <li class="registration">
+    	<a class="a-link" href="#registration" data-toggle="tab">Регистрация</a>
+    </li>
+  </ul>
+
+  <!-- Tab panes -->
+  <div class="tab-content content">
+
+    <div class="tab-pane active" id="login">
+    	<input class="input-form input-one animated pulse" type="text" placeholder="Ваше имя">
+    	<input class="input-form animated pulse" type="text" placeholder="Пароль">
+    	<a class="password" href="#">Забыли пароль?</a>
+    	<div class="flag">
+     	<input type="checkbox">
+     	<label for="#">Напомнить мне</label>
+    	</div>
+    	<button class="one-btn animated bounceInRight">Войти</button>
+    </div>
+
+    <div class="tab-pane" id="registration">
+    	<input class="input-form input-two animated pulse" type="text" placeholder="Ваше имя">
+    	<input class="input-form input-two animated pulse" type="text" placeholder="Пароль">
+    	<input class="input-form input-two animated pulse" type="text" placeholder="Повторить пароль">
+   		<button class="two-btn animated bounceInRight">Зарегистрироваться</button>
+    </div>
+
+  </div>
+
+</div>    	
+
+    </div>
+
+
+    <script src = "js/wow.min.js"></script>
+     <script>
+       new WOW().init();
+     </script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="http://getbootstrap.com/assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
