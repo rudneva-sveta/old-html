@@ -30,7 +30,7 @@
   
 МОДУЛЬ 6  
 [Урок № 19](https://rudneva-sveta.github.io/lesson_19/index.html "УРОК № 19 (Анимация на CSS3)") - Анимация на CSS3  
-[Урок № 20](https://rudneva-sveta.github.io/lesson_20/ "УРОК № 20 (Видео-фон на сайте)") - Видео-фон на сайте
+[Урок № 20](https://rudneva-sveta.github.io/lesson_20/ "УРОК № 20 (Видео-фон на сайте)") - Видео-фон на сайте 
 
   
 * * * * *   
