@@ -45,4 +45,5 @@
 [Часть 6](https://rudneva-sveta.github.io/practice_6/project/src/ "ПРАКТИКА - ЧАСТЬ 6 (Верстка блока с ценами)") - Верстка блока с ценами.  
   
 В МОДУЛЕ 6  
-[Часть 7](https://rudneva-sveta.github.io/practice_7/project/src/ "ПРАКТИКА - ЧАСТЬ 7 (Верстка блока с отзывами)") - Верстка блока с отзывами.
+[Часть 7](https://rudneva-sveta.github.io/practice_7/project/src/ "ПРАКТИКА - ЧАСТЬ 7 (Верстка блока с отзывами)") - Верстка блока с отзывами.  
+[Часть 8](https://rudneva-sveta.github.io/practice_8/project/src/ "ПРАКТИКА - ЧАСТЬ 8 (Доверстали блок с отзывами)") - Доверстали блок с отзывами.
