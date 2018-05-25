@@ -1,0 +1,900 @@
+/* Отменить горизонтальный скролл */
+html, body { overflow-x:hidden; }
+
+/* Fonts family */
+@font-face {
+ font-family: 'PTSans_bold';
+ src: url('../fonts/PTSans-Bold.eot');
+ src: url('../fonts/PTSans-Bold.eot?#iefix') format('embedded-opentype'),
+     url('../fonts/PTSans-Bold.woff2') format('woff2'),
+     url('../fonts/PTSans-Bold.woff') format('woff'),
+     url('../fonts/PTSans-Bold.ttf') format('truetype'),
+     url('../fonts/PTSans-Bold.svg#PTSans-Bold') format('svg');
+ font-weight: bold;
+ font-style: normal;
+}
+
+@font-face {
+ font-family: 'BebasNeue_bold';
+ src: url('../fonts/BebasNeueBold.eot');
+ src: url('../fonts/BebasNeueBold.eot?#iefix') format('embedded-opentype'),
+     url('../fonts/BebasNeueBold.woff2') format('woff2'),
+     url('../fonts/BebasNeueBold.woff') format('woff'),
+     url('../fonts/BebasNeueBold.ttf') format('truetype'),
+     url('../fonts/BebasNeueBold.svg#BebasNeueBold') format('svg');
+ font-weight: bold;
+ font-style: normal;
+}
+
+@font-face {
+ font-family: 'PTSans_reg';
+ src: url('../fonts/PTSans-Regular.eot');
+ src: url('../fonts/PTSans-Regular.eot?#iefix') format('embedded-opentype'),
+     url('../fonts/PTSans-Regular.woff2') format('woff2'),
+     url('../fonts/PTSans-Regular.woff') format('woff'),
+     url('../fonts/PTSans-Regular.ttf') format('truetype'),
+     url('../fonts/PTSans-Regular.svg#PTSans-Regular') format('svg');
+ font-weight: normal;
+ font-style: normal;
+}
+
+.reg() {
+	font-family: 'PTSans_reg', sans-serif;
+}
+.bold() {
+	font-family: 'PTSans_bold', sans-serif;
+}
+.bebas() {
+	font-family: 'BebasNeue_bold', sans-serif;
+}
+
+/* Базовые цвета (Colors) */
+@bg-color: #2aa723;
+@bg-light: #fbffe7;
+@text-light: #ffffff;
+@text-black: #2b2b2b;
+
+/* Базовые настройки (Basic setting) */
+html {
+	font-size: 10px;
+}
+body {
+	.reg();
+}
+.button {
+	padding: 2.3rem 7.5rem;
+	font-size: 2rem;
+	.bebas();
+	background-color: @text-light;
+	color: @bg-color;
+	border: none;
+	&:hover {
+		text-shadow: 1px 1px @bg-color, -1px -1px @bg-color;
+		color: @text-light;
+	}
+}
+.form-input {
+	padding: 2.3rem 7.5rem;
+	margin-right: 3rem;
+	font-size: 1.6rem;
+	background-color: @bg-color;
+	border: 2px solid @text-light;
+}
+/* Меняем цвет в input */
+::-webkit-input-placeholder {color: @text-light;}
+::-moz-placeholder          {color: @text-light;}/* Firefox 19+ */
+:-moz-placeholder           {color: @text-light;}/* Firefox 18- */
+:-ms-input-placeholder      {color: @text-light;}
+/* Фокус - взаимодействие с объектом */
+input, button, a {
+	&:focus {
+		outline: none;
+	}
+}
+
+/* Типографика (Typography) */
+section {
+	padding: 10rem 0;
+}
+.section-header {
+		&_light {
+			color: @text-light;
+		}
+		h2 {
+	 .bebas();
+	 font-size: 4.4rem;
+		}
+		p {
+			margin-top: 5rem;
+			font-size: 2rem;
+		}
+		margin-bottom: 10rem;
+		text-align: center;
+}
+
+
+/* Главный экран (main) */
+.main {
+	background: @text-black url(../img/main/main-bg.jpg) center no-repeat;
+	background-size: cover;
+	padding: 2rem 0;
+	color: @text-light;
+	&-content {
+		margin: 5rem 0;
+		h1 {
+			padding-bottom: 3rem;
+			font-size: 5.6rem;
+			.bebas();
+			text-transform: uppercase;
+		}
+	}
+	&-subtitle {
+		font-size: 2.2rem;
+		padding-bottom: 2rem;
+	}
+	&-list {
+		padding: 0;
+		list-style: none;
+		font-size: 2rem;
+		li {		
+			padding-bottom: 2rem;			
+		 position: relative;
+		 padding-left: 5rem;
+  		&:before {
+	 	content: '';
+	 	position: absolute;
+	 	left: 0;
+	 	top: 0;
+ 		width: 3rem;
+ 		height: 3rem;			
+	  	}
+		}
+		li:before {
+			background: url(../img/check.png) center no-repeat;
+			background-size: 70%;
+		}
+	}
+	.header {
+		.phone-block {
+			text-align: center;
+			p {
+				margin: 0;
+				font-size: 2.4rem;
+				.bebas();
+			}
+			a {
+				color: @bg-color;
+				font-size: 1.6rem;
+				border-bottom: 1px solid @bg-color;
+				text-decoration: none;			
+			}
+		}
+	}
+	&-block {
+		p {
+			margin-top: 2rem;
+			font-size: 1.5rem;
+			.bold();
+			text-transform: uppercase;
+		}
+		&-one {			
+			background-color: rgba(42, 167, 35, 0.7);
+		}
+		&-two {
+			margin-right: -3rem;
+			background-color:  rgba(17, 99, 12, 0.7);
+		}
+		&-three {
+			background-color:  rgba(33, 136, 28, 0.7);
+		}
+		padding: 5rem 4rem;
+		text-align: center;
+		min-width: 27rem;
+		min-height: 27rem;
+	}
+}
+
+/* Блок с видео */
+.video {
+	background-color: @text-light;
+	&-content {
+		text-align: right;
+		.bebas();
+		font-size: 4.4rem;
+		img {
+			width: 35rem;
+			margin-right: 6rem;
+		}
+		iframe {
+			width: 560px;
+			height: 315px;
+			border: none;
+			box-shadow: 0 0 5px 3px rgba(0, 128, 0, 1);
+		}
+	}
+}
+
+/* Блок лучшие условия */
+.conditions {
+	background-color: @bg-color;
+	&-block {
+		text-align: center;
+		p {
+			color: @text-light;
+			font-size: 1.8rem;
+			margin-top: 4rem;
+		}
+	}
+}
+
+/* Блок складские услуги */
+.services {
+	background-color: @text-light;
+	.section-header {
+		margin-bottom: 6rem;
+	}
+	&-list {
+		font-size: 1.6rem;
+		margin-left: -5rem;
+		ul {
+			list-style: none;
+			li {
+				 padding-left: 4rem;
+				 position: relative;
+					margin-bottom: 3rem;
+				&:before {
+			 	content: '';
+			 	position: absolute;
+			 	left: 0;
+			 	top: 0;			 	
+		 		width: 3rem;
+		 		height: 3rem;
+				}
+			}
+		}
+		ul li:before {
+			background: url(../img/checked.png) center no-repeat;
+		}
+	}
+}
+
+/* Блок "Комфорт условия для бизнеса" */
+.comfort {
+	background-color: @bg-light;
+	padding-bottom: 0;
+	&-block {
+		min-height: 20rem;
+		margin-bottom: 5rem;
+		text-align: center;
+		p {
+			margin-top: 5rem;
+			font-size: 1.8rem;
+		}
+	}
+}
+
+/* Блок "Получить предварительный расчет" */
+.calculation {
+	background: @bg-color url(../img/calculation-bg.jpg) center no-repeat;
+	background-size: cover;
+	color: @text-light;
+	&-content {
+		h2 {
+			.bebas();
+			font-size: 3.6rem;
+		}
+		p {
+			margin: 4.6rem 0 6rem 0;
+			font-size: 1.8rem;
+		}
+	}
+}
+
+/* Блок "Сервис для арендаторов" */
+.tenant {
+	background-color: @text-light;
+	&-block {
+		padding: 3rem;
+		width: 37rem;
+		height: 37rem;
+		margin-bottom: 2rem;
+		color: @text-light;
+		.title {
+			font-size: 2.4rem;
+			.bold();
+		}
+		.small {
+			font-size: 2rem;
+		}
+	}
+	&-one {
+		background: @text-black url(../img/tenant/1.png) center no-repeat;
+		background-size: cover;
+	}
+	&-two {
+		background: @text-black url(../img/tenant/2.png) center no-repeat;
+		background-size: cover;
+	}
+	&-three {
+		background: @text-black url(../img/tenant/3.png) center no-repeat;
+		background-size: cover;
+	}
+	&-four {
+		background: @text-black url(../img/tenant/4.png) center no-repeat;
+		background-size: cover;
+	}
+	&-five {
+		background: @text-black url(../img/tenant/5.png) center no-repeat;
+		background-size: cover;
+	}
+	&-six {
+		background: @text-black url(../img/tenant/6.png) center no-repeat;
+		background-size: cover;
+	}
+}
+
+/* Блок "Как мы работаем" */
+.working {
+	background-color: @bg-light;
+	&-block {
+		text-align: center;
+		p {
+			font-size: 1.8rem;
+			margin-top: 4.5rem;
+		}
+	}
+}
+
+/* Блок "Получить наиболее выгодные условия" */
+.get {
+	background: @bg-color url(../img/get-bg.jpg) center no-repeat;
+	background-size: cover;
+	color: @text-light;
+	&-content {
+		h2 {
+			.bebas();
+			font-size: 3.6rem;
+		}
+		p {
+			margin: 4.6rem 0 6rem 0;
+			font-size: 1.8rem;
+		}
+	}
+}
+
+/* Блок с картой */
+.map {
+	padding-bottom: 0;
+	background-color: @text-light;
+}
+
+/* Оформление подвала (footer) */
+.footer {
+	padding: 3rem 0;
+	background-color: #151515;
+	.phone-block {
+		text-align: center;
+		p {
+			margin: 0;
+			font-size: 2.4rem;
+			.bebas();
+			color: @text-light;
+		}
+		a {
+			color: @bg-color;
+			font-size: 1.6rem;
+			border-bottom: 1px solid @bg-color;
+			text-decoration: none;			
+		}
+	}
+	.developer {
+		margin-top: 2rem;
+		text-align: center;
+		font-size: 1.5rem;
+		color: @text-light;
+		a {
+			color: @bg-color;
+			font-size: 1.5rem;
+			border-bottom: 1px solid @bg-color;
+			text-decoration: none;
+			&:hover {
+				color: #90ee90;
+			}
+		}
+	}
+}
+
+
+
+/* Оформление модальных окон */
+.popup {
+	display: none;
+	position: fixed;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 10;
+	background-color: rgba(0, 0, 0, 0.8);
+	&-close {
+		position: absolute;
+		top: -6rem;
+		left: 50%;
+		transform: translateX(-50%);
+		text-align: center;
+		border: none;
+		background-color: transparent;
+		color: @text-light;
+		font-size: 5rem;
+	}
+	&-content {
+		position: fixed;
+		text-align: center;
+		left: 50%;
+		top: 20%;
+		background-color: @bg-color;
+		color: @text-light;
+		transform: translateX(-50%);
+		padding: 5rem 3rem;
+		.form {
+			&-input {
+				display: block;
+				margin-left: 50%;
+				transform: translateX(-50%);
+				margin-bottom: 2rem;
+				padding: 2rem 4rem;
+			}
+		}
+		p {
+			font-size: 1.5rem;
+			margin: 2rem 0;
+		}
+	}
+	&-header {
+		.bebas();
+		font-size: 3rem;
+	}
+}
+
+
+
+
+/* Адаптив под разную ширину экрана */
+@media screen and (max-width: 1920px) and (min-width: 1201px) {
+}
+@media screen and (max-width: 1200px) and (min-width: 992px) {
+	.main {
+		&-block {
+			&-one {
+				margin-left: 2rem;
+			}
+			&-two {
+				margin-right: 0;
+			}
+			&-three {
+				margin-left: 2rem;
+			}
+			padding: 4rem 0;
+			min-width: 25rem;
+			min-height: 25rem;
+		}
+	}
+	.calculation {
+		.form {
+			&-input {
+				width: 100%;
+			}
+		}
+	}
+	.tenant {
+		&-block {
+			width: 30rem;
+			height: 30rem;
+		}
+	}
+	.get {
+		.form {
+			&-input {
+				width: 100%;
+			}
+		}
+	}
+}
+@media (max-width: 992px) {
+	.main {
+		.header {
+			.logo {
+				img {
+					max-width: 15rem;
+				}
+			}
+			.address {
+				img {
+					max-width: 15rem;
+				}
+			}
+			.phone-block {
+				p {
+					font-size: 1.5rem;
+				}
+				a {
+					font-size: 1rem;
+				}
+			}
+		}
+		&-content {
+			h1 {
+				font-size: 2.5rem;
+				padding-bottom: 0.5rem;
+			}
+		}
+		&-subtitle {
+			font-size: 1.5rem;
+			padding-bottom: 0.5rem;
+		}
+		&-list {
+			font-size: 1.2rem;
+		}
+		&-btn {
+			padding: 1rem 1.5rem;
+			font-size: 1.2rem;
+		}
+		&-box {
+			margin-top: 10rem;
+		}
+		&-block {
+			&-one {
+				margin-left: -5.2rem;
+			}
+			&-two {
+			}
+			&-three {
+				margin-left: -5.2rem;
+			}	
+			img {
+				max-width: 5rem;
+			}
+			p {
+				margin-top: 2rem;
+				font-size: 1rem;
+			}
+			padding: 1rem;
+			text-align: center;
+			min-width: 12rem;
+			min-height: 12rem;
+			max-width: 12rem;
+			max-height: 12rem;
+		}
+	}
+	.video {
+		&-content {
+			text-align: center;
+		}
+		&-title {
+			img {
+				margin-right: 0;
+			}
+		}
+	}
+	.conditions {
+		&-block {
+			margin-bottom: 2rem;
+			p {
+				margin-top: 1rem;
+			}
+		}
+	}
+	.services {
+		&-list {
+			margin-left: 0;
+		}
+	}
+	.calculation {
+		&-content {
+			text-align: center;
+		}
+		.form {
+			&-input {
+				margin: 0 0 2rem 0;
+			}
+		}
+	}
+	.tenant {
+		&-block {
+			margin-bottom: 0.5rem;
+		}
+	}
+	.working {
+		&-block {
+			margin-bottom: 3rem;
+		}
+	}
+	.get {
+		&-content {
+			text-align: center;
+		}
+		.form {
+			&-input {
+				margin: 0 0 2rem 0;
+			}
+		}
+	}
+	.footer {
+		text-align: center;
+		.address {
+			margin: 5rem 0;
+		}
+	}
+}
+@media (max-width: 767px) {
+	.main {
+		.header {
+			.logo {
+				text-align: center;
+				padding-bottom: 1.5rem;
+			}
+			.phone-block {
+				p {
+					margin-top: -0.5rem;
+					margin-bottom: -1rem;
+				}
+			}
+		}
+		&-box {
+			display: none;
+		}
+		&-content {
+			margin-left: 50%;
+			transform: translateX(-40%);
+		}
+	}
+	.video {
+		padding: 1rem 0;
+		&-title {
+			h2 {
+				font-size: 1.5rem;
+			}
+			img {
+				max-width: 20rem;
+			}
+		}
+		&-block {
+			iframe {
+				width: 40rem;
+				height: 20rem;
+			}
+		}
+	}
+	.conditions {
+		padding: 1rem 0;
+		.section-header {
+			margin-bottom: 3rem;
+			h2 {
+				font-size: 1.5rem;
+			}
+		}
+		&-block {
+			img {
+				width: 20%;
+			}
+			p {
+				font-size: 1rem;
+			}
+		}
+	}
+	.services {
+		padding: 1rem 0;
+		.section-header {
+			margin-bottom: 1rem;
+			h2 {
+				font-size: 1.5rem;
+			}
+			p {
+				margin-top: 1rem;
+				font-size: 1rem;
+			}
+		}
+		.fotorama {
+			max-width: 50%;
+			margin-left: 50%;
+			transform: translateX(-50%);
+		}
+		&-list {
+			font-size: 0.8rem;
+			text-align: center;
+			ul {
+				padding: 0;
+				li {
+					padding: 0;
+					margin-bottom: 1rem;
+				}
+			}
+			ul li:before {
+				display: none;
+			}
+		}
+	}
+	.comfort {
+		padding-top: 1rem;
+		.section-header {
+			margin-bottom: 1rem;
+			h2 {
+				font-size: 1.5rem;
+			}
+		}
+		&-block {
+			min-height: 10rem;
+			margin-bottom: 0;
+			img {
+				max-width: 4rem;
+			}
+			p {
+				margin-top: 1rem;
+				font-size: 1rem;
+			}
+		}
+	}
+	.calculation {
+		padding: 1rem 0;
+		&-content {
+			h2 {
+				font-size: 1.5rem;
+			}
+			p {
+				margin: 1rem 0;
+				font-size: 1rem;
+			}
+		}
+		.form {
+			&-input {
+				margin-bottom: 0.5rem;
+				padding: 1rem;
+				font-size: 1rem;
+			}
+			&-btn {
+				padding: 1rem 3.5rem;
+				font-size: 1rem;
+			}
+		}
+	}
+	.tenant {
+		padding: 1rem 0;
+		.section-header {
+			margin-bottom: 1rem;
+			h2 {
+				font-size: 1.5rem;
+			}
+		}
+		&-block {
+			margin-left: 50%;
+			transform: translateX(-50%);
+			width: 25rem;
+			height: 25rem;
+		}
+		.title {
+			font-size: 1.3rem;
+		}
+		.small {
+			font-size: 1.1rem;
+		}
+	}
+	.working {
+		padding: 1rem 0;
+		.section-header {
+			margin-bottom: 1rem;
+			h2 {
+				font-size: 1.5rem;
+			}
+		}
+		&-block {
+			p {
+				margin-top: 1rem;
+				font-size: 1rem;
+			}
+			img {
+				max-width: 4rem;
+			}
+		}
+	}
+	.get {
+		padding: 1rem 0;
+		&-content {
+			h2 {
+				font-size: 1.5rem;
+			}
+			p {
+				margin: 1rem 0;
+				font-size: 1rem;
+			}
+		}
+		.form {
+			&-input {
+				margin-bottom: 0.5rem;
+				padding: 1rem;
+				font-size: 1rem;
+			}
+			&-btn {
+				padding: 1rem 3.5rem;
+				font-size: 1rem;
+			}
+		}
+	}
+	.map {
+		padding-top: 1rem;
+		.section-header {
+			margin-bottom: 1rem;
+			h2 {
+				font-size: 1.5rem;
+			}
+		}
+	}
+	.footer {
+		padding: 1rem 0;
+		.logo {
+			img {
+				width: 15rem;
+			}
+		}
+		.address {
+			margin: 2rem 0;
+			img {
+				width: 13rem;
+			}
+		}
+		.phone-block {
+			p {
+				font-size: 1rem;
+			}
+			a {
+				font-size: 1rem;
+			}
+		}
+	}
+	.popup {
+		&-header {
+			font-size: 1.5rem;
+		}
+		&-content {
+			padding: 3rem 2rem;
+			p {
+				font-size: 1rem;
+				margin: 1rem 0;
+			}
+			.form {
+				&-input {
+					padding: 1rem 2rem;
+					font-size: 1rem;
+					margin-bottom: 1rem;
+				}
+				&-btn {
+					padding: 1rem 4rem;
+					font-size: 1rem;
+				}
+			}
+		}
+	}
+}
+@media (max-width: 510px) {
+	.tenant {
+		&-block {
+		 width: 15rem;
+		 height: 15rem;
+		}
+		.title {
+		 font-size: 1rem;
+		}
+		.small {
+		 font-size: 0.8rem;
+		}
+	}
+	.video {
+		&-block {
+			iframe {
+				width: 20rem;
+				height: 10rem;
+			}
+		}
+	}
+}
