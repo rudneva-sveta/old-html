@@ -1,0 +1,565 @@
+/* Отменить горизонтальный скролл */
+html,
+body {
+  overflow-x: hidden;
+}
+/* Fonts family */
+@font-face {
+  font-family: 'ArvoRegular';
+  src: url('../fonts/ArvoRegular.eot');
+  src: url('../fonts/ArvoRegular.eot?#iefix') format('embedded-opentype'), url('../fonts/ArvoRegular.woff2') format('woff2'), url('../fonts/ArvoRegular.woff') format('woff'), url('../fonts/ArvoRegular.ttf') format('truetype'), url('../fonts/ArvoRegular.svg#ArvoRegular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ArvoBold';
+  src: url('../fonts/ArvoBold.eot');
+  src: url('../fonts/ArvoBold.eot?#iefix') format('embedded-opentype'), url('../fonts/ArvoBold.woff2') format('woff2'), url('../fonts/ArvoBold.woff') format('woff'), url('../fonts/ArvoBold.ttf') format('truetype'), url('../fonts/ArvoBold.svg#ArvoBold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+/* Базовые цвета (Colors) */
+/* Базовые настройки (Basic setting) */
+html {
+  font-size: 10px;
+}
+body {
+  font-family: 'ArvoRegular', sans-serif;
+}
+button:focus,
+input:focus,
+a:focus,
+textarea:focus {
+  outline: none;
+}
+/* Типографика (Typography) */
+.section-header {
+  padding: 0 0 8rem 0;
+  text-align: center;
+}
+.section-header h2 {
+  font-family: 'ArvoBold', sans-serif;
+  font-size: 2rem;
+}
+/* Главный экран (main) */
+.main {
+  padding-top: 3rem;
+  padding-bottom: 2.7rem;
+  background: #161545 url(../img/main-bg.jpg) center no-repeat;
+  background-size: cover;
+  color: #ffffff;
+}
+.main .header {
+  padding-bottom: 38rem;
+}
+.main .header .phone-block {
+  padding-top: 2rem;
+}
+.main .header .phone-block .tel {
+  font-size: 2.4rem;
+  color: #1198e6;
+}
+.main .header .phone-block .icon form {
+  display: inline-block;
+}
+.main .header .phone-block .icon .icon-btn {
+  border: none;
+  border-radius: 50%;
+  width: 3.5rem;
+  height: 3.5rem;
+  margin-left: 1.5rem;
+}
+.main .header .phone-block .icon .fb-btn {
+  background: url(../img/fb.png) center no-repeat;
+}
+.main .header .phone-block .icon .fb-btn:hover {
+  background: url(../img/fb-hover.png) center no-repeat;
+}
+.main .header .phone-block .icon .tw-btn {
+  background: url(../img/Twitter.png) center no-repeat;
+}
+.main .header .phone-block .icon .tw-btn:hover {
+  background: url(../img/Twitter-hover.png) center no-repeat;
+}
+.main .header .phone-block .icon .yout-btn {
+  background: url(../img/Youtube.png) center no-repeat;
+}
+.main .header .phone-block .icon .yout-btn:hover {
+  background: url(../img/Youtube-hover.png) center no-repeat;
+}
+.main .header .phone-block .icon .insta-btn {
+  background: url(../img/Insta.png) center no-repeat;
+}
+.main .header .phone-block .icon .insta-btn:hover {
+  background: url(../img/Insta-hover.png) center no-repeat;
+}
+.main-content .partner {
+  margin-top: 18rem;
+  margin-right: 1rem;
+  display: inline-block;
+}
+.main-content .partner small {
+  display: block;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+.main-content .email {
+  position: relative;
+  margin-top: 19rem;
+}
+.main-content .email input {
+  min-width: 24.3rem;
+  min-height: 4rem;
+  border: none;
+  color: #1198e6;
+  border-radius: 4px;
+  padding: 1rem;
+  font-size: 1rem;
+}
+.main-content .email-btn {
+  position: absolute;
+  margin-left: -5.5rem;
+  margin-top: 0.2rem;
+  border: none;
+  min-width: 5.3rem;
+  min-height: 3.5rem;
+  background: url(../img/email.png) center no-repeat;
+}
+.main-content .main-title {
+  text-align: center;
+}
+.main-content .main-title p {
+  font-size: 1.8rem;
+  color: #ffcd48;
+}
+.main-content .main-title h1 {
+  font-family: 'ArvoBold', sans-serif;
+  font-size: 3rem;
+}
+.main-content .main-title .main-btn {
+  margin-top: 2rem;
+  border: none;
+  min-width: 22.7rem;
+  min-height: 4.3rem;
+  background: url(../img/main-btn.png) center no-repeat;
+}
+.main-content .main-title .main-btn:hover {
+  background: none;
+  color: #1198e6;
+}
+/* Блок цели акции */
+.goals {
+  padding: 6rem 0;
+  background: #f9593a;
+  color: #ffffff;
+}
+.goals .title {
+  display: none;
+}
+.goals h2 {
+  text-align: center;
+  font-family: 'ArvoBold', sans-serif;
+  font-size: 9.2rem;
+}
+.goals-block .target .media-heading {
+  color: #ffcd48;
+  font-family: 'ArvoBold', sans-serif;
+  font-size: 6rem;
+}
+.goals-block .target p {
+  font-size: 1.3rem;
+}
+.goals-block .target-two {
+  margin-top: 10rem;
+}
+.goals-block .target-three {
+  position: relative;
+}
+.goals-block .target-three .media-object {
+  position: absolute;
+  z-index: 50;
+  margin-top: -14rem;
+  margin-left: -40rem;
+}
+.goals-block .target-four {
+  margin-top: 10rem;
+}
+/* Блок концепция и условия акции */
+.concept {
+  padding: 15rem 0;
+  background: #1198e6 url(../img/concept-bg.jpg) center no-repeat;
+  background-size: cover;
+  color: #ffffff;
+}
+.concept-content .concept-block p {
+  margin-bottom: 4rem;
+  font-size: 1.6rem;
+  line-height: 1.8;
+}
+/* Блок участники акции */
+.participant {
+  min-height: 88rem;
+  max-height: 88rem;
+  padding: 10rem 0;
+  background: #545462 url(../img/participant/participant-bg.jpg) center no-repeat;
+  background-size: cover;
+  color: #ffffff;
+}
+.participant .section-header {
+  margin-bottom: 4rem;
+}
+.participant .section-header h2 {
+  font-size: 3.4rem;
+}
+.participant .section-header p {
+  font-size: 1.8rem;
+}
+.participant .slider-three .info .title {
+  margin-top: 2rem;
+  font-size: 2rem;
+  color: #ffcd48;
+}
+.participant .slider-three .info small {
+  display: block;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: #9fa3a7;
+}
+.participant .slider-three .info .text {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+.participant .slider-three img {
+  margin-top: -7rem;
+  width: 12rem;
+}
+.participant .slider-three .participant-line {
+  margin-top: 3.5rem;
+  border-top: 0.5rem solid #ff7d45;
+}
+.participant-slider {
+  text-align: center;
+}
+.participant-slider_block .info {
+  display: none;
+}
+.participant-slider_block .info .title {
+  margin-top: 2rem;
+  font-size: 2rem;
+  color: #ffcd48;
+}
+.participant-slider_block .info small {
+  display: block;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: #9fa3a7;
+}
+.participant-slider_block .info .text {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+.participant-slider_block:hover img {
+  margin-top: -7rem;
+  width: 12rem;
+}
+.participant-slider_block:hover .participant-line {
+  margin-top: 3.5rem;
+  border-top: 0.5rem solid #ff7d45;
+}
+.participant-slider_block:hover .info {
+  display: block;
+}
+.participant-slider .line-home {
+  margin-top: 8.5rem;
+}
+.participant-line {
+  margin-top: 2rem;
+  border-top: 0.5rem solid #3c3c44;
+}
+/* Блок - Зажги свет добра */
+.shine {
+  min-height: 76.8rem;
+  background: #272626 url(../img/shine/shine-bg.jpg) center no-repeat;
+  background-size: cover;
+  color: #ffffff;
+}
+.shine-lamp {
+  position: relative;
+  text-align: center;
+  margin-left: 8rem;
+}
+.shine-lamp .shine-btn {
+  border: none;
+  width: 25rem;
+  height: 50rem;
+  background: url(../img/shine/lamp-off.png) center no-repeat;
+}
+.shine-lamp .shine-btn:hover {
+  background: url(../img/shine/lamp-on.png) center no-repeat;
+}
+.shine-lamp p {
+  margin-top: -18rem;
+  margin-left: 80rem;
+  margin-bottom: 0;
+  font-family: 'ArvoBold', sans-serif;
+}
+.shine-lamp .text-one {
+  font-size: 3rem;
+}
+.shine-lamp .text-one span {
+  color: #1198e6;
+}
+.shine-lamp .text-two {
+  font-size: 3.7rem;
+}
+.shine-lamp .text-three {
+  font-size: 2.4rem;
+}
+.shine-lamp .text-three span {
+  color: #ffcd48;
+}
+.shine-lamp .text-four {
+  font-size: 5rem;
+}
+.shine-lamp .cursor {
+  position: absolute;
+  margin-top: -15rem;
+  margin-left: -25rem;
+}
+/* Блок с картой */
+.map {
+  padding: 6rem 0;
+}
+.map-content .map-block h3 {
+  margin-top: 8rem;
+  margin-bottom: 3rem;
+  font-family: 'ArvoBold', sans-serif;
+  font-size: 2.4rem;
+  text-transform: uppercase;
+  color: #212121;
+}
+.map-content .map-block p {
+  font-size: 1.8rem;
+  color: #3f3f3f;
+}
+.map-content .map-block .map-btn {
+  margin-top: 2rem;
+  border: none;
+  min-width: 22.7rem;
+  min-height: 4.3rem;
+  font-size: 1.2rem;
+  color: #ffffff;
+  background: url(../img/main-btn.png) center no-repeat;
+}
+.map-content .map-block .map-btn:hover {
+  background: none;
+  color: #1198e6;
+}
+/* Подвал - footer */
+.footer {
+  padding: 10rem 0 7rem 0;
+  background-color: #5fe259;
+  text-align: center;
+  color: #ffffff;
+}
+.footer .section-header {
+  padding-bottom: 5rem;
+}
+.footer .section-header h2 {
+  margin-top: 5rem;
+  font-size: 3rem;
+}
+.footer-title .title-block h3 {
+  font-family: 'ArvoBold', sans-serif;
+  font-size: 13rem;
+}
+.footer-title .title-block p {
+  text-transform: uppercase;
+  font-size: 1.4rem;
+}
+.footer-title .footer-btn {
+  margin-top: 5rem;
+  border: none;
+  min-width: 22.7rem;
+  min-height: 4.3rem;
+  font-size: 1.2rem;
+  color: #474646;
+  background: url(../img/footer/footer-btn.png) center no-repeat;
+}
+.footer-title .footer-btn:hover {
+  background: none;
+  color: #ffcd48;
+}
+.footer .author {
+  margin-top: 8rem;
+}
+.footer .author a {
+  color: #ffcd48;
+}
+/* Адаптив под разную ширину экрана */
+@media (max-width: 1200px) {
+  .main-content {
+    text-align: center;
+  }
+  .main-content .partner {
+    margin-top: 3rem;
+  }
+  .main-content .email {
+    margin-top: 3rem;
+  }
+  .shine-lamp p {
+    margin-left: 55rem;
+  }
+}
+@media (max-width: 992px) {
+  .goals {
+    text-align: center;
+  }
+  .goals h2 {
+    font-size: 7rem;
+  }
+  .goals img {
+    display: none;
+  }
+  .participant {
+    min-height: 100rem;
+    max-height: 100rem;
+  }
+  .shine-lamp p {
+    margin-left: 45rem;
+  }
+  .map-block img {
+    width: 25rem;
+  }
+}
+@media (max-width: 768px) {
+  .main .header {
+    text-align: center;
+  }
+  .main .header .logo img {
+    width: 20rem;
+  }
+  .main .header .phone-block .tel {
+    font-size: 2rem;
+  }
+  .main .header .phone-block .icon .icon-btn {
+    width: 3rem;
+    height: 3rem;
+  }
+  .main-content .main-title p {
+    font-size: 1.5rem;
+  }
+  .main-content .main-title h1 {
+    font-size: 2rem;
+  }
+  .main-content .partner {
+    margin-top: 3rem;
+  }
+  .main-content .email {
+    margin-top: 3rem;
+  }
+  .goals {
+    padding: 2rem 0;
+  }
+  .goals .title {
+    display: block;
+  }
+  .goals .subtitle {
+    display: none;
+  }
+  .goals .target {
+    margin: 1rem 0;
+  }
+  .concept {
+    background: #1198e6;
+    padding: 2rem 0;
+  }
+  .concept .section-header {
+    padding-bottom: 2rem;
+  }
+  .concept-content .concept-block p {
+    margin-bottom: 2rem;
+  }
+  .participant {
+    max-height: 200rem;
+    padding: 2rem 0;
+  }
+  .participant .section-header {
+    padding-bottom: 0;
+  }
+  .participant .section-header h2 {
+    font-size: 2.5rem;
+  }
+  .participant .section-header p {
+    font-size: 1.4rem;
+  }
+  .participant .slider-three {
+    margin-top: 7rem;
+  }
+  .participant .slider-three img {
+    width: 7rem;
+  }
+  .participant-slider_block .info {
+    display: block;
+  }
+  .participant-slider_block:hover img {
+    margin-top: 0;
+    width: 6.5rem;
+  }
+  .participant-line {
+    display: none;
+  }
+  .shine {
+    display: none;
+  }
+  .map {
+    padding: 2rem 0;
+    text-align: center;
+  }
+  .map-content .map-block h3 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+  }
+  .map-content .map-block p {
+    font-size: 1.5rem;
+  }
+  .footer {
+    padding: 2rem 0;
+  }
+  .footer .section-header {
+    padding-bottom: 0;
+  }
+  .footer .section-header h2 {
+    margin-top: 2rem;
+    font-size: 2.5rem;
+  }
+  .footer-title .title-block h3 {
+    font-size: 10rem;
+  }
+  .footer-title .title-block p {
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 560px) {
+  .goals h2 {
+    font-size: 4rem;
+  }
+  .goals .target .media-heading {
+    font-size: 3.5rem;
+  }
+  .footer .section-header h2 {
+    font-size: 2rem;
+  }
+  .footer-title .title-block h3 {
+    font-size: 5rem;
+  }
+  .footer-title .title-block p {
+    font-size: 0.7rem;
+  }
+  .footer-title .footer-btn {
+    margin-top: 3rem;
+  }
+}
